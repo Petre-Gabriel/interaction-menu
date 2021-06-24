@@ -18,7 +18,7 @@ const configuration = Object.freeze({
             position: 'top',
             title: 'Cancel',
             description: 'No action will take place and the dialog will close.',
-            icon: CancelIcon       
+            icon: CancelIcon,
         },
         {
             ActionID: 2,

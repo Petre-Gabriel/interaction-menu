@@ -7,3 +7,15 @@ By default, to make the menu appear you need to press `g`.
 To change the texts, icons and interaction button you need to edit the `app.config.js` located in the `src` folder.
 
 The styling was made with Tailwind CSS. To change colors, spacing etc. you need to change the theme object from `tailwind.config.js` file.
+
+### Important
+To add functionality to buttons, you need to add a `onClick` parameter to all button components. You can also do this from the `app.config.js` file by adding a function that to every button object you want.
+
+
+            ActionID: 1,
+            position: 'top',
+            title: 'Cancel',
+            description: 'No action will take place and the dialog will close.',
+            icon: CancelIcon,
+			onClick: () => alert('workiing!'),
+
